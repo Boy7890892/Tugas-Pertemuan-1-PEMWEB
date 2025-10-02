@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login - Restoran Lezat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-container">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" required>
+
+      <button type="submit">Login</button>
+    </form>
+    <p id="loginError" class="error-message"></p>
+  </div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Restoran Lezat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Restoran Lezat</h1>
+    <nav>
+      <ul>
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="beranda" class="hero">
+    <h2>Selamat Datang di Restoran Lezat!</h2>
+    <p>Rasakan kenikmatan kuliner terbaik di kota Anda.</p>
+  </section>
+
+  <section id="menu">
+    <h2>Menu Kami</h2>
+    <div class="menu-item">
+      <h3>Nasi Goreng Spesial</h3>
+      <p>Rp 25.000</p>
+    </div>
+    <div class="menu-item">
+      <h3>Mie Ayam Jamur</h3>
+      <p>Rp 20.000</p>
+    </div>
+    <div class="menu-item">
+      <h3>Sate Ayam</h3>
+      <p>Rp 30.000</p>
+    </div>
+  </section>
+
+  <section id="kontak">
+    <h2>Kontak</h2>
+    <form id="kontakForm">
+      <label for="nama">Nama:</label>
+      <input type="text" id="nama" required>
+
+      <label for="pesan">Pesan:</label>
+      <textarea id="pesan" required></textarea>
+
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Restoran Lezat</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
